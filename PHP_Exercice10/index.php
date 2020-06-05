@@ -10,7 +10,13 @@
         //Aisne (02) Nord (59) Oise (60) Pas-de-Calais (62) Somme (80)
         
         function ShowDept ($n){
-            $HautsDeFr = ['02' => 'Aisne', '59' => 'Nord', '60' => 'Oise', '62' => 'Pas-de-Calais', '80' => 'Somme'];
+            $HautsDeFr = [
+                '02' => 'Aisne',
+                '59' => 'Nord',
+                '60' => 'Oise',
+                '62' => 'Pas-de-Calais',
+                '80' => 'Somme'];
+                
             return 'Le département ' . $HautsDeFr[$n] . ' a le numéro ' . $n;
         }
     ?>
