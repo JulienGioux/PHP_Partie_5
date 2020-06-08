@@ -10,5 +10,6 @@
         $months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
     ?>
     <p><?php print_r($months); ?></p>
+    <p><?php var_dump($months); ?></p>
 </body>
 </html>
