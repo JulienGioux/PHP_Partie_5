@@ -20,10 +20,12 @@
             return 'Le département ' . $HautsDeFr[$n] . ' a le numéro ' . $n;
         }
     ?>
-    <p><?php print(ShowDept('02')); ?></p>
-    <p><?php print(ShowDept('59')); ?></p>
-    <p><?php print(ShowDept('60')); ?></p>
-    <p><?php print(ShowDept('62')); ?></p>
-    <p><?php print(ShowDept('80')); ?></p>
+    <p>
+    <?= ShowDept('02'); ?><br>
+    <?= ShowDept('59'); ?><br>
+    <?= ShowDept('60'); ?><br>
+    <?= ShowDept('62'); ?><br>
+    <?= ShowDept('80'); ?>
+    </p>
 </body>
 </html>

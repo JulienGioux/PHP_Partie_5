@@ -10,10 +10,10 @@
         $months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
         $listMonths = '';
         foreach ($months as $key => $value) {
-            $listMonths = $listMonths . ' ' . $value;
+            $listMonths = $listMonths . '<br>' . '[' . $key . '] ' . $value;
         }
     ?>
-    <p><?php print($listMonths); ?></p>
+    <p><?= $listMonths ?></p>
 
 </body>
 </html>

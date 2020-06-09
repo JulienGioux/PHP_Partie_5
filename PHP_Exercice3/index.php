@@ -9,6 +9,6 @@
     <?php
         $months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
     ?>
-    <p><?php print($months[5]); ?></p>
+    <p><?= $months[5]; ?></p>
 </body>
 </html>
