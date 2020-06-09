@@ -10,6 +10,6 @@
         $months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
         $months[7] = 'Août';
     ?>
-    <p><?php print($months[7]); ?></p>
+    <pre><?php print_r($months); ?></pre>
 </body>
 </html>
